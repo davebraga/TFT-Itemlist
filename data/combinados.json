@@ -1,0 +1,969 @@
+{
+   "type":"tft-item",
+   "version":"14.20.1",
+   "data":{
+      "TFT_Item_NeedlesslyLargeRod":{
+         "id":"TFT_Item_NeedlesslyLargeRod",
+         "name":"Bastão Desnecessariamente Grande",
+         "description":"+10 Poder de Habilidade",
+         "position":[
+            "01",
+            "10"
+         ],
+         "image":{
+            "full":"TFT_Item_NeedlesslyLargeRod.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":144,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_RabadonsDeathcap":{
+         "id":"TFT_Item_RabadonsDeathcap",
+         "name":"Capuz da Morte de Rabadon",
+         "description":"+50 Poder de Habilidade\n +20% de Dano de Habilidade",
+         "position":[
+            "11"
+         ],
+         "image":{
+            "full":"TFT_Item_RabadonsDeathcap.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":288,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_GuinsoosRageblade":{
+         "id":"TFT_Item_GuinsoosRageblade",
+         "name":"Lâmina da Fúria de Guinsoo",
+         "description":"+10 Poder de Habilidade\n +15% de Velocidade de Ataque\n Cada ataque gera um adicional de 5% de Velocidade de Ataque",
+         "position":[
+            "12",
+            "21"
+         ],
+         "image":{
+            "full":"TFT_Item_GuinsoosRageblade.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":0,
+            "y":96,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_HextechGunblade":{
+         "id":"TFT_Item_HextechGunblade",
+         "name":"Pistola Laminar Hextec",
+         "description":"+20% Vampirismo\n Cura o aliado com menor vida em 20% do dano causado",
+         "position":[
+            "13",
+            "31"
+         ],
+         "image":{
+            "full":"TFT_Item_HextechGunblade.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":96,
+            "y":96,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_Crownguard":{
+         "id":"TFT_Item_Crownguard",
+         "name":"Stemmaguarda",
+         "description":"Inicio do Combate: Ganhe um escudo com 30% da Vida Máxima por 8 segundos\n Ao fim do escudo, +35 de Poder de Habilidade",
+         "position":[
+            "14",
+            "41"
+         ],
+         "image":{
+            "full":"TFT_Item_Crownguard.png",
+            "sprite":"tft-item3.png",
+            "group":"tft-item",
+            "x":384,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_JeweledGauntlet":{
+         "id":"TFT_Item_JeweledGauntlet",
+         "name":"Manopla Adornada",
+         "description":"Habilidades causam Dano Crítico\n Caso a Habilidade já cause Dano Crítico, +10% de Dano Crítico",
+         "position":[
+            "15",
+            "51"
+         ],
+         "image":{
+            "full":"TFT_Item_JeweledGauntlet.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":288,
+            "y":96,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_Morellonomicon":{
+         "id":"TFT_Item_Morellonomicon",
+         "name":"Morellonomicon",
+         "description":"Ataques e Habilidades causam 1% de Queimadura e 33% de Ferida a inimigos por 10 segundos\n Apenas um item por campeão",
+         "position":[
+            "16",
+            "61"
+         ],
+         "image":{
+            "full":"TFT_Item_Morellonomicon.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":96,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_IonicSpark":{
+         "id":"TFT_Item_IonicSpark",
+         "name":"Centelha Iônica",
+         "description":"Redução de Resistência Mágica dos inimigos presentes dentro do raio de 2 hexágonos\n Quando o inimigo lança uma habilidade, cause Dano Mágico equivalente a 160% de sua Mana máxima",
+         "position":[
+            "17",
+            "71"
+         ],
+         "image":{
+            "full":"TFT_Item_IonicSpark.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":240,
+            "y":96,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_ArchangelsStaff":{
+         "id":"TFT_Item_ArchangelsStaff",
+         "name":"Cajado do Arcanjo",
+         "description":"Ganhe 30 de Poder de Habilidade a cada 5 segundos",
+         "position":[
+            "18",
+            "81"
+         ],
+         "image":{
+            "full":"TFT_Item_ArchangelsStaff.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":432,
+            "y":96,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_EmblemItems/TFT12_Item_PortalEmblemItem":{
+         "id":"TFT12_Item_PortalEmblemItem",
+         "name":"Emblema de Portal",
+         "description":"O usuário ganha a característica Portal",
+         "position":[
+            "19",
+            "91"
+         ],
+         "image":{
+            "full":"TFT12_Item_PortalEmblemItem.png",
+            "sprite":"tft-item6.png",
+            "group":"tft-item",
+            "x":288,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_RecurveBow":{
+         "id":"TFT_Item_RecurveBow",
+         "name":"Arco Recurvo",
+         "description":"+10 Velocidade de Ataque",
+         "position":[
+            "02",
+            "20"
+         ],
+         "image":{
+            "full":"TFT_Item_RecurveBow.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":384,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_RedBuff":{
+         "id":"TFT_Item_RedBuff",
+         "name":"Efeito Vermelho",
+         "description":"+6% de Dano Bônus \n Ataques e Habilidades causam 1% de Queimadura e 33% de Ferida a inimigos por 5 segundos",
+         "position":[
+            "22"
+         ],
+         "image":{
+            "full":"TFT_Item_RedBuff.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":432,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_MadredsBloodrazor":{
+         "id":"TFT_Item_MadredsBloodrazor",
+         "name":"Mata-Gigantes",
+         "description":"Cause 25% mais dano a inimigos com mais de 1750 de Vida Máxima",
+         "position":[
+            "23",
+            "32"
+         ],
+         "image":{
+            "full":"TFT_Item_MadredsBloodrazor.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":384,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_TitansResolve":{
+         "id":"TFT_Item_TitansResolve",
+         "name":"Determinação Titânica",
+         "description":"Cause 25% mais dano a inimigos com mais de 1750 de Vida Máxima",
+         "position":[
+            "24",
+            "42"
+         ],
+         "image":{
+            "full":"TFT_Item_TitansResolve.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":336,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_LastWhisper":{
+         "id":"TFT_Item_LastWhisper",
+         "name":"Último Sussurro",
+         "description":"Ataques reduzem a Armadura do inimigo atingido em 30% por 3 segundos \n Esse efeito não acumula",
+         "position":[
+            "25",
+            "52"
+         ],
+         "image":{
+            "full":"TFT_Item_LastWhisper.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":336,
+            "y":96,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_Leviathan":{
+         "id":"TFT_Item_Leviathan",
+         "name":"Dente de Na'Shor",
+         "description":"Após lançar uma habilidade, ganhe 40% de Velocidade de Ataque por 5 segundos",
+         "position":[
+            "26",
+            "62"
+         ],
+         "image":{
+            "full":"TFT_Item_Leviathan.png",
+            "sprite":"tft-item3.png",
+            "group":"tft-item",
+            "x":432,
+            "y":96,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_RunaansHurricane":{
+         "id":"TFT_Item_RunaansHurricane",
+         "name":"Furacão de Runaan",
+         "description":"Ataques atiram uma bola de fogo ao inimigo mais próximo, causando 55% de Dano de Ataque como dano",
+         "position":[
+            "27",
+            "72"
+         ],
+         "image":{
+            "full":"TFT_Item_RunaansHurricane.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":48,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_StatikkShiv":{
+         "id":"TFT_Item_StatikkShiv",
+         "name":"Faca de Statikk",
+         "description":"Cada terceiro ataque causa 35 de Dano Mágico e reduz a Armadura de até 4 Inimigos em 35% por 5 segundos ",
+         "position":[
+            "28",
+            "82"
+         ],
+         "image":{
+            "full":"TFT_Item_StatikkShiv.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":144,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_EmblemItems/TFT12_Item_PyroEmblemItem":{
+         "id":"TFT12_Item_PyroEmblemItem",
+         "name":"Emblema de Pirofagia",
+         "description":"O usuário ganha a característica Pirofagia",
+         "position":[
+            "29",
+            "92"
+         ],
+         "image":{
+            "full":"TFT12_Item_PyroEmblemItem.png",
+            "sprite":"tft-item6.png",
+            "group":"tft-item",
+            "x":336,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_BFSword":{
+         "id":"TFT_Item_BFSword",
+         "name":"Espada G.p.C.",
+         "description":"+10 Dano de Ataque",
+         "position":[
+            "03",
+            "30"
+         ],
+         "image":{
+            "full":"TFT_Item_BFSword.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":192,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_Deathblade":{
+         "id":"TFT_Item_Deathblade",
+         "name":"Lâmina Mortal",
+         "description":"+7% de Ataque Bônus",
+         "position":[
+            "33"
+         ],
+         "image":{
+            "full":"TFT_Item_Deathblade.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":432,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_GuardianAngel":{
+         "id":"TFT_Item_GuardianAngel",
+         "name":"Limiar da Noite",
+         "description":"Uma vez por combate, ao atingir 60% da Vida, torne-se invulnerável por um breve período. Após esse efeito, +15% de Velocidade de Ataque",
+         "position":[
+            "34",
+            "43"
+         ],
+         "image":{
+            "full":"TFT_Item_GuardianAngel.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":432,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_InfinityEdge":{
+         "id":"TFT_Item_InfinityEdge",
+         "name":"Gume do Infinito",
+         "description":"Habilidades causam Dano Crítico\n Caso a Habilidade já cause Dano Crítico, +10% de Dano Crítico",
+         "position":[
+            "35",
+            "53"
+         ],
+         "image":{
+            "full":"TFT_Item_InfinityEdge.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":192,
+            "y":96,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_SteraksGage":{
+         "id":"TFT_Item_SteraksGage",
+         "name":"Sinal de Sterak",
+         "description":"Uma vez por combate, ao atingir 60% da Vida,+25% de Vida Máxima e +35% de Dano de Ataque",
+         "position":[
+            "36",
+            "63"
+         ],
+         "image":{
+            "full":"TFT_Item_SteraksGage.png",
+            "sprite":"tft-item3.png",
+            "group":"tft-item",
+            "x":144,
+            "y":96,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_Bloodthirster":{
+         "id":"TFT_Item_Bloodthirster",
+         "name":"Sedenta por Sangue",
+         "description":"Uma vez por combate, ao atingir 40% da Vida, ganhe um escudo equivalente a +25% da Vida por 5 segundos \n +20% de Vampirismo",
+         "position":[
+            "37",
+            "73"
+         ],
+         "image":{
+            "full":"TFT_Item_Bloodthirster.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":240,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_SpearOfShojin":{
+         "id":"TFT_Item_SpearOfShojin",
+         "name":"Lança de Shojin",
+         "description":"Ataques geram 5 de mana ao usuário",
+         "position":[
+            "38",
+            "83"
+         ],
+         "image":{
+            "full":"TFT_Item_SpearOfShojin.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":96,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_EmblemItems/TFT12_Item_SugarcraftEmblemItem":{
+         "id":"TFT12_Item_SugarcraftEmblemItem",
+         "name":"Emblema de Docemancia",
+         "description":"O usuário ganha a característica Docemância",
+         "position":[
+            "39",
+            "93"
+         ],
+         "image":{
+            "full":"TFT12_Item_SugarcraftEmblemItem.png",
+            "sprite":"tft-item6.png",
+            "group":"tft-item",
+            "x":240,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_ChainVest":{
+         "id":"TFT_Item_ChainVest",
+         "name":"Cota de Malha",
+         "description":"+20 Armadura",
+         "position":[
+            "40",
+            "04"
+         ],
+         "image":{
+            "full":"TFT_Item_ChainVest.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":336,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_BrambleVest":{
+         "id":"TFT_Item_BrambleVest",
+         "name":"Colete Espinhoso",
+         "description":"+5% de Vida Máxima \n +8% de Redução de Dano \n Ao receber um ataque, cause 100 de Dano Fisico ao inimigo",
+         "position":[
+            "44"
+         ],
+         "image":{
+            "full":"TFT_Item_BrambleVest.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":288,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_NightHarvester":{
+         "id":"TFT_Item_NightHarvester",
+         "name":"Coração Inabalável",
+         "description":"+8% de Negação de Dano \n Caso sua vida estiver  \n Ao receber um ataque, cause 100 de Dano Fisico ao inimigo",
+         "position":[
+            "45",
+            "54"
+         ],
+         "image":{
+            "full":"TFT_Item_NightHarvester.png",
+            "sprite":"tft-item3.png",
+            "group":"tft-item",
+            "x":0,
+            "y":96,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_SunfireCape":{
+         "id":"TFT_Item_SunfireCape",
+         "name":"Capa de Fogo Solar",
+         "description":"A cada 2 segundos, cause 1% de Queimadura e reduza a Armadura de todos os inimigos presentes em um raio de 2 hexágonos em 33%\n Limitado a um item por usuário",
+         "position":[
+            "46",
+            "64"
+         ],
+         "image":{
+            "full":"TFT_Item_SunfireCape.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":432,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_GargoyleStoneplate":{
+         "id":"TFT_Item_GargoyleStoneplate",
+         "name":"Placa Gargolítica",
+         "description":"Ganhe 10 de Armadura e 10 de Resistência Mágica para cada inimigo atacando o usuário",
+         "position":[
+            "47",
+            "74"
+         ],
+         "image":{
+            "full":"TFT_Item_GargoyleStoneplate.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":192,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_FrozenHeart":{
+         "id":"TFT_Item_FrozenHeart",
+         "name":"Juramento do Protetor",
+         "description":"Uma vez por combate, ao atingir 40% da Vida, ganhe um escudo equivalente a +25% da Vida por 5 segundos \n +20 de Armadura \n +20 de Resistência Mágica",
+         "position":[
+            "48",
+            "84"
+         ],
+         "image":{
+            "full":"TFT_Item_FrozenHeart.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":288,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_EmblemItems/TFT12_Item_FrostEmblemItem":{
+         "id":"TFT12_Item_FrostEmblemItem",
+         "name":"Emblema de Congelado",
+         "description":"O usuário ganha a característica Congelado",
+         "position":[
+            "49",
+            "94"
+         ],
+         "image":{
+            "full":"TFT12_Item_FrostEmblemItem.png",
+            "sprite":"tft-item6.png",
+            "group":"tft-item",
+            "x":432,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_SparringGloves":{
+         "id":"TFT_Item_SparringGloves",
+         "name":"Luvas do Pugilista",
+         "description":"+20 Chance de Crítico",
+         "position":[
+            "05",
+            "50"
+         ],
+         "image":{
+            "full":"TFT_Item_SparringGloves.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":384,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_ThiefsGloves":{
+         "id":"TFT_Item_ThiefsGloves",
+         "name":"Luvas do Ladrão",
+         "description":"A cada rodada equipa 2 itens aleatórios \n Consome todos os espaços de itens do usuário",
+         "position":[
+            "55"
+         ],
+         "image":{
+            "full":"TFT_Item_ThiefsGloves.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":144,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_PowerGauntlet":{
+         "id":"TFT_Item_PowerGauntlet",
+         "name":"Quebra-guarda",
+         "description":"Após atacar um Escudo, +25% de Dano Físico por 3 segundos",
+         "position":[
+            "56",
+            "65"
+         ],
+         "image":{
+            "full":"TFT_Item_PowerGauntlet.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":240,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_Quicksilver":{
+         "id":"TFT_Item_Quicksilver",
+         "name":"Mercúrio",
+         "description":"Inicio do Combate: Ganhe imunidade a Controle de Grupo por 14 segundos\n Durante esse período, +4% de Velocidade de Ataque a cada 2 segundos",
+         "position":[
+            "57",
+            "75"
+         ],
+         "image":{
+            "full":"TFT_Item_Quicksilver.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":48,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_UnstableConcoction":{
+         "id":"TFT_Item_UnstableConcoction",
+         "name":"Mão da Justiça",
+         "description":"+15% de Dano de Ataque e +15 de Poder de Habilidade \n +15% de Vampirismo \n A cada rodada, dobra os efeitos de uma das duas características",
+         "position":[
+            "58",
+            "85"
+         ],
+         "image":{
+            "full":"TFT_Item_UnstableConcoction.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":48,
+            "y":96,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_EmblemItems/TFT12_Item_HoneymancyEmblemItem":{
+         "id":"TFT12_Item_HoneymancyEmblemItem",
+         "name":"Emblema de Melmancia",
+         "description":"O usuário ganha a característica Melmancia",
+         "position":[
+            "59",
+            "95"
+         ],
+         "image":{
+            "full":"TFT12_Item_HoneymancyEmblemItem.png",
+            "sprite":"tft-item6.png",
+            "group":"tft-item",
+            "x":96,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_GiantsBelt":{
+         "id":"TFT_Item_GiantsBelt",
+         "name":"Cinto do Gigante",
+         "description":"+150 de Vida",
+         "position":[
+            "06",
+            "60"
+         ],
+         "image":{
+            "full":"TFT_Item_GiantsBelt.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":336,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_WarmogsArmor":{
+         "id":"TFT_Item_WarmogsArmor",
+         "name":"Armadura de Warmog",
+         "description":"+8% de Vida Máxima",
+         "position":[
+            "66"
+         ],
+         "image":{
+            "full":"TFT_Item_WarmogsArmor.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":384,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_Shroud":{
+         "id":"TFT_Item_Shroud",
+         "name":"Proteção Imutável",
+         "description":"Inicio do Combate: +25 Armadura e +25 Resistência Mágica por 10 segundos\n Reduz a armadura dos inimigos em um raio de 2 hexágonos em 30%",
+         "position":[
+            "67",
+            "76"
+         ],
+         "image":{
+            "full":"TFT_Item_Shroud.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":240,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_Redemption":{
+         "id":"TFT_Item_Redemption",
+         "name":"Redenção",
+         "description":"A cada 5 segundos, o usuário cura os aliados em até 1 casa adjacente em 15% da Vida perdida \n Eles também recebem 10% de Durabilidade por 5 segundos",
+         "position":[
+            "68",
+            "86"
+         ],
+         "image":{
+            "full":"TFT_Item_Redemption.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":0,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_EmblemItems/TFT12_Item_EldritchEmblemItem":{
+         "id":"TFT12_Item_EldritchEmblemItem",
+         "name":"Emblema de Macabro",
+         "description":"O usuário ganha a característica Macabro",
+         "position":[
+            "69",
+            "96"
+         ],
+         "image":{
+            "full":"TFT12_Item_EldritchEmblemItem.png",
+            "sprite":"tft-item6.png",
+            "group":"tft-item",
+            "x":144,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_NegatronCloak":{
+         "id":"TFT_Item_NegatronCloak",
+         "name":"Capa Negatron",
+         "description":"+20 Resistência Mágica",
+         "position":[
+            "07",
+            "70"
+         ],
+         "image":{
+            "full":"TFT_Item_NegatronCloak.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":192,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_DragonsClaw":{
+         "id":"TFT_Item_DragonsClaw",
+         "name":"Garra do Dragão",
+         "description":"+9% de Vida Máxima \n A cada 2 segundos, cura 5% da Vida Máxima",
+         "position":[
+            "77"
+         ],
+         "image":{
+            "full":"TFT_Item_DragonsClaw.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":0,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_AdaptiveHelm":{
+         "id":"TFT_Item_AdaptiveHelm",
+         "name":"Elmo Adaptativo",
+         "description":"Início do combate: recebe atributos diferentes com base na posição inicial \n Duas linhas frontais: 40 de Armadura e de Resistência Mágica. Recebe 1 de Mana ao ser atingido por um ataque. \n Duas linhas traseiras: 15 de Poder de Habilidade. Recebe 10 de Mana a cada 3 segundos",
+         "position":[
+            "78",
+            "87"
+         ],
+         "image":{
+            "full":"TFT_Item_AdaptiveHelm.png",
+            "sprite":"tft-item3.png",
+            "group":"tft-item",
+            "x":336,
+            "y":96,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_EmblemItems/TFT12_Item_WitchcraftEmblemItem":{
+         "id":"TFT12_Item_WitchcraftEmblemItem",
+         "name":"Emblema de Bruxaria",
+         "description":"O usuário ganha a característica Bruxaria",
+         "position":[
+            "79",
+            "97"
+         ],
+         "image":{
+            "full":"TFT12_Item_WitchcraftEmblemItem.png",
+            "sprite":"tft-item6.png",
+            "group":"tft-item",
+            "x":0,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_TearOfTheGoddess":{
+         "id":"TFT_Item_TearOfTheGoddess",
+         "name":"Lágrima da Deusa",
+         "description":"+15 Mana",
+         "position":[
+            "08",
+            "80"
+         ],
+         "image":{
+            "full":"TFT_Item_TearOfTheGoddess.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":240,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_BlueBuff":{
+         "id":"TFT_Item_BlueBuff",
+         "name":"Efeito Azul",
+         "description":"Mana Máxima reduzida em 10 \n Ao abater um inimigo, o usuário causa mais 8% de Dano por 8 segundos",
+         "position":[
+            "88"
+         ],
+         "image":{
+            "full":"TFT_Item_BlueBuff.png",
+            "sprite":"tft-item3.png",
+            "group":"tft-item",
+            "x":240,
+            "y":96,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_EmblemItems/TFT12_Item_FaerieEmblemItem":{
+         "id":"TFT12_Item_FaerieEmblemItem",
+         "name":"Emblema de Fada",
+         "description":"O usuário ganha a característica Fada",
+         "position":[
+            "89",
+            "98"
+         ],
+         "image":{
+            "full":"TFT12_Item_FaerieEmblemItem.png",
+            "sprite":"tft-item6.png",
+            "group":"tft-item",
+            "x":192,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_Spatula":{
+         "id":"TFT_Item_Spatula",
+         "name":"Espátula",
+         "description":"Isso deve fazer alguma coisa...",
+         "position":[
+            "09",
+            "90"
+         ],
+         "image":{
+            "full":"TFT_Item_Spatula.png",
+            "sprite":"tft-item1.png",
+            "group":"tft-item",
+            "x":0,
+            "y":0,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT_Item_ForceOfNature":{
+         "id":"TFT_Item_ForceOfNature",
+         "name":"Coroa do Estrategista",
+         "description":"Aumenta o tamanho da equipe em 1",
+         "position":[
+            "99"
+         ],
+         "image":{
+            "full":"TFT_Item_ForceOfNature.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":96,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      }
+   }
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>Itens TFT</title>
+
+    <style>
+
+        
+
+        body {
+            background-color:  black;
+        }
+
+        table {
+            width: 15%;
+            border: 1px solid;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        th, td {
+            border: 2px;
+        }
+
+        td img {
+            width: 1.2cm;
+            height: auto;
+            border-radius: 1px;
+            border-right: 2px solid rgb(131, 134, 135);
+            border-bottom: 2px solid rgb(131, 134, 135);
+        }
+
+        #titulo, #version{
+            color: #ccc;
+            text-align: center;
+        }
+
+        footer{
+            color: #ccc;
+            text-align: center;
+        }
+
+        /* Estilo do modal */
+        #itemModal {
+            color: #ccc;
+            font-size: smaller;
+            display: none; /* Oculta o modal inicialmente */
+            position: absolute; /* Posiciona o modal */
+            z-index: 1; /* Coloca o modal acima dos outros elementos */
+            background-color: rgb(39, 41, 42); /* Fundo branco semi-transparente */
+            border: 1px solid #ccc; /* Borda do modal */
+            padding: 10px; /* Espaçamento interno */
+            border-radius: 5px; /* Bordas arredondadas */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra do modal */
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo">TFT ITEM CHEATLIST</h1>
+    <div id="version"></div>
+
+    <br>
+
+    <table id="tabela-combinacoes"></table>
+
+    <!-- Modal -->
+    <div id="itemModal">
+        <table>
+            <h3 id="modalItemName"></h3>
+            <p id="modalItemDescription"></p>
+        </table>
+        
+    </div>
+
+    <script>
+        // Carrega imagens via fetch
+        async function carregarDados() {
+            const response = await fetch('/combinados'); // Rota correta
+            const data = await response.json();
+
+            //Adicionando versionamento atual
+            const version = document.getElementById('version');
+            version.append("Versão:" + data.version);
+
+
+            //Criação da Matriz
+            const tamanho = 10; // Defina o tamanho da matriz de acordo com o número de itens básicos
+            let matriz = Array.from({ length: tamanho }, () => Array(tamanho).fill(null));
+
+            // Preencher a matriz com os itens do JSON
+            Object.keys(data.data).forEach(key => {
+                const itemCompleto = data.data[key];
+                itemCompleto.position.forEach(pos => {
+                    const row = parseInt(pos.charAt(0)) ; 
+                    const col = parseInt(pos.charAt(1)) ; 
+
+                    // Verificar se row e col estão dentro dos limites da matriz
+                    if (row >= 0 && row < tamanho && col >= 0 && col < tamanho) {
+                        matriz[row][col] = itemCompleto; // Coloca o item nas posições corretas
+                    } else {
+                        console.error(`Posição (${row}, ${col}) fora dos limites da matriz.`);
+                    }
+                });
+            });
+
+            // Gerar a tabela HTML com base na matriz
+            construirTabela(matriz);
+        }
+
+        function construirTabela(matriz) {
+            const tabela = document.getElementById('tabela-combinacoes');
+
+            matriz.forEach(linha => {
+                const row = document.createElement('tr');
+
+                linha.forEach(celula => {
+                    const cell = document.createElement('td');
+
+                    if (celula) {
+                        const imgElement = document.createElement('img');
+                        imgElement.src = "images/" + celula.image.full; // Caminho correto das imagens
+                        imgElement.alt = celula.name; // Coloca o nome do item como texto alternativo
+                        cell.appendChild(imgElement);
+
+                        // Adiciona evento de clique para abrir o modal
+                        imgElement.onclick = (event) => abrirModal(event, celula);
+                    }
+
+                    row.appendChild(cell);
+                });
+
+                tabela.appendChild(row);
+            });
+        }
+
+        // Função para abrir o modal
+        function abrirModal(event, item) {
+            const modal = document.getElementById('itemModal');
+            modal.style.display = 'block'; // Exibe o modal
+            modal.style.top = event.clientY + 'px'; // Posiciona o modal na altura do clique
+            modal.style.left = (event.clientX + 15) + 'px'; // Posiciona o modal à direita do clique
+
+            document.getElementById('modalItemName').innerText = item.name; // Define o nome do item no modal
+            document.getElementById('modalItemDescription').innerText = item.description; // Define a descrição do item no modal
+        }
+
+        // Fecha o modal ao clicar fora do conteúdo do modal
+        window.onclick = function(event) {
+            const modal = document.getElementById('itemModal');
+            if (event.target == modal) {
+                modal.style.display = 'none'; // Oculta o modal
+            }
+        }
+
+        // Chamar a função quando a página carregar
+        window.onload = carregarDados;
+    </script>
+</body>
+<footer>
+    <br>
+    <p>2024 por Davi Braga</p>
+    <a href="https://github.com/davebraga">Github</a>
+</footer>
+</html>
