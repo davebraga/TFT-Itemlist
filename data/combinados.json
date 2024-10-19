@@ -964,6 +964,194 @@
             "w":48,
             "h":48
          }
+      },
+      "TFT_Item_FryingPan":{
+         "id":"TFT_Item_FryingPan",
+         "name":"Frigideira",
+         "description":"...por que mais estaria aqui?",
+         "position":[
+            "1000", "0010"
+         ],
+         "image":{
+            "full":"TFT_Item_FryingPan.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":96,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_Item_MageEmblemItem":{
+         "id":"TFT12_Item_MageEmblemItem",
+         "name":"Emblema do Mago",
+         "description":"O usuário ganha a característica Mago",
+         "position":[
+            "1001", "0110"
+         ],
+         "image":{
+            "full":"TFT12_Item_MageEmblemItem.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":96,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_Item_MultistrikerEmblemItem":{
+         "id":"TFT12_Item_MultistrikerEmblemItem",
+         "name":"Emblema do Multiataque",
+         "description":"O usuário ganha a característica Multiataque",
+         "position":[
+            "1002", "0210"
+         ],
+         "image":{
+            "full":"TFT12_Item_MultistrikerEmblemItem.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":96,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_Item_HunterEmblemItem":{
+         "id":"TFT12_Item_HunterEmblemItem",
+         "name":"Emblema do Caçador",
+         "description":"O usuário ganha a característica Caçador",
+         "position":[
+            "1003", "0310"
+         ],
+         "image":{
+            "full":"TFT12_Item_HunterEmblemItem.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":96,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_Item_BastionEmblemItem":{
+         "id":"TFT12_Item_BastionEmblemItem",
+         "name":"Emblema do Bastião",
+         "description":"O usuário ganha a característica Bastião",
+         "position":[
+            "1004", "0410"
+         ],
+         "image":{
+            "full":"TFT12_Item_BastionEmblemItem.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":96,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_Item_WarriorEmblemItem":{
+         "id":"TFT12_Item_WarriorEmblemItem",
+         "name":"Emblema do Guerreiro",
+         "description":"O usuário ganha a característica Guerreiro",
+         "position":[
+            "1005", "0510"
+         ],
+         "image":{
+            "full":"TFT12_Item_WarriorEmblemItem.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":96,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_Item_ShapeshifterEmblemItem":{
+         "id":"TFT12_Item_ShapeshifterEmblemItem",
+         "name":"Emblema do Metamorfo",
+         "description":"O usuário ganha a característica Metamorfo",
+         "position":[
+            "1006", "0610"
+         ],
+         "image":{
+            "full":"TFT12_Item_ShapeshifterEmblemItem.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":96,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_Item_PreserverEmblemItem":{
+         "id":"TFT12_Item_PreserverEmblemItem",
+         "name":"Emblema do Preservador",
+         "description":"O usuário ganha a característica Preservador",
+         "position":[
+            "1007", "0710"
+         ],
+         "image":{
+            "full":"TFT12_Item_PreserverEmblemItem.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":96,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_Item_ScholarEmblemItem":{
+         "id":"TFT12_Item_ScholarEmblemItem",
+         "name":"Emblema do Intelectual",
+         "description":"O usuário ganha a característica Intelectual",
+         "position":[
+            "1008", "0810"
+         ],
+         "image":{
+            "full":"TFT12_Item_ScholarEmblemItem.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":96,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_Item_TacticiansCape":{
+         "id":"TFT12_Item_TacticiansCape",
+         "name":"Capa do Estrategista",
+         "description":"Sua equipe recebe +1 de tamanho máximo. \n 10% de chance de conceder 1 de ouro após 10.0s de combate.",
+         "position":[
+            "1009", "0910"
+         ],
+         "image":{
+            "full":"TFT12_Item_TacticiansCape.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":96,
+            "y":48,
+            "w":48,
+            "h":48
+         }
+      },
+      "TFT12_Item_TacticiansShield":{
+         "id":"TFT12_Item_TacticiansShield",
+         "name":"Escudo do Estrategista",
+         "description":"Sua equipe recebe +1 de tamanho máximo. \n 10% de chance de conceder 1 de ouro quando o usuário morrer.",
+         "position":[
+            "1010"
+         ],
+         "image":{
+            "full":"TFT12_Item_TacticiansShield.png",
+            "sprite":"tft-item0.png",
+            "group":"tft-item",
+            "x":96,
+            "y":48,
+            "w":48,
+            "h":48
+         }
       }
+
    }
 }

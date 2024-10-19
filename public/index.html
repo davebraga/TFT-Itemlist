@@ -29,7 +29,7 @@
         }
 
         td img {
-            width: 1.2cm;
+            width: 1cm;
             height: auto;
             border-radius: 1px;
             border-right: 2px solid rgb(131, 134, 135);
@@ -90,15 +90,22 @@
 
 
             //Criação da Matriz
-            const tamanho = 10; // Defina o tamanho da matriz de acordo com o número de itens básicos
+            const tamanho = 11; // Defina o tamanho da matriz de acordo com o número de itens básicos
             let matriz = Array.from({ length: tamanho }, () => Array(tamanho).fill(null));
 
             // Preencher a matriz com os itens do JSON
-            Object.keys(data.data).forEach(key => {
+            Object.keys(data.data).forEach(key => { //Adaptado para receber itens de tamanho 10+
                 const itemCompleto = data.data[key];
+                var row;
+                var col;
                 itemCompleto.position.forEach(pos => {
-                    const row = parseInt(pos.charAt(0)) ; 
-                    const col = parseInt(pos.charAt(1)) ; 
+                    if(pos.length > 3){
+                        row = parseInt(pos.charAt(0) + pos.charAt(1)) ; 
+                        col = parseInt(pos.charAt(2) + pos.charAt(3)) ; 
+                    }else{
+                        row = parseInt(pos.charAt(0)) ; 
+                        col = parseInt(pos.charAt(1)) ; 
+                    }
 
                     // Verificar se row e col estão dentro dos limites da matriz
                     if (row >= 0 && row < tamanho && col >= 0 && col < tamanho) {
